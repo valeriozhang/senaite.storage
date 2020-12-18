@@ -6,12 +6,12 @@
 
 from setuptools import setup, find_packages
 
-version = "1.0.2"
+version = "1.0.2rc7"
 
 setup(
-    name="senaite.storage",
+    name="valer.storage",
     version=version,
-    description="Sample storage add-on for SENAITE",
+    description="Sample storage add-on for VALER LIMS",
     long_description=open("README.rst").read(),
     # long_description_content_type="text/markdown",
     # Get more strings from
@@ -22,7 +22,7 @@ setup(
         "Programming Language :: Python",
         "License :: OSI Approved :: GNU General Public License v2 (GPLv2)",
     ],
-    keywords=['senaite', 'lims', 'opensource'],
+    keywords=['senaite', 'lims', 'opensource', 'valer'],
     author="RIDING BYTES & NARALABS",
     author_email="senaite@senaite.com",
     url="https://github.com/senaite/senaite.storage",
@@ -34,8 +34,7 @@ setup(
     zip_safe=False,
     install_requires=[
         "setuptools",
-        "senaite.lims>=1.3.4",
-        "senaite.lims<1.4.0",
+        "valer.lims==1.3.4rc7",
         "archetypes.schemaextender",
     ],
     extras_require={
