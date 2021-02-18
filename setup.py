@@ -6,7 +6,7 @@
 
 from setuptools import setup, find_packages
 
-version = "1.0.2rc8"
+version = "1.0.2rc9"
 
 setup(
     name="valer.storage",
@@ -34,7 +34,7 @@ setup(
     zip_safe=False,
     install_requires=[
         "setuptools",
-        "valer.lims==1.3.4rc8",
+        "valer.lims==1.3.4rc9",
         "archetypes.schemaextender",
     ],
     extras_require={
